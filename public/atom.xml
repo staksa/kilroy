@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Arek Komarnicki]]></title>
+  <link href="http://arekom.me/atom.xml" rel="self"/>
+  <link href="http://arekom.me/"/>
+  <updated>2013-04-22T20:48:40+01:00</updated>
+  <id>http://arekom.me/</id>
+  <author>
+    <name><![CDATA[Arek Komarnicki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
