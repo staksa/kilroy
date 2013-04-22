@@ -1,6 +1,7 @@
 ## What is Kilroy?
 
-Kilroy is my minimal blog and resume build with html, css and jquery. Kilroy is sitting on Octopress framework which makes creating posts and pages super easy. And to make this all even more cool --everything is responsive.
+<p>Kilroy is my minimal blog and resume build with html, css and jquery. Kilroy is sitting on Octopress framework which makes creating posts and pages super easy. And to make this all even more cool --everything is responsive.</p>
+<p>Blog is deployed on heroku :)</p>
 
 ## What is Octopress?
 
