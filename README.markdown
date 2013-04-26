@@ -1,7 +1,6 @@
 ## What is Kilroy?
 
-Kilroy is my minimal blog and resume build with html, css and jquery. Kilroy is build on Stacey - minimal cms, which is database free. Stacey makes creating posts and pages super easy. And to make this all even more cool --everything is responsive.
-<p>My old blog was deployed on heroku, this one is deployed on my own server.</p>
+Kilroy is my minimal blog and resume. Kilroy is build on Stacey - minimal cms, which is database free. Stacey makes creating posts and pages super easy. And to make this all even more cool --everything is responsive.
 
 ## What is Stacey?
 
