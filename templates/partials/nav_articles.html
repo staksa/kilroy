@@ -1,5 +1,6 @@
 {% for child in page.root %}
   {% if child.children %}
+  <p class="nav-title">Latest Posts</p>
     <ul>
     {% for child in child.children %}
     	<li><a href="{{ child.url }}">{{ child.page_title }}</a></li>
