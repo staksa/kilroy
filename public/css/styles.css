@@ -60,7 +60,7 @@ h2 {
 
 a,
 a:visited {
-	color: tomato;	
+	color: #BEC3C4;	
 }
 
 
@@ -76,7 +76,7 @@ a:hover,
 h2 a:hover,
 h3 a:hover {
 	text-decoration: none;
-	color: tomato;	
+	color: #BEC3C4;	
 }
 
 hr {
@@ -100,7 +100,7 @@ hr {
 
 /* hero */
 .hero {
-	background: tomato; /* love this colour - it's nuts...*/
+	background: #525F60; /* love this colour - it's nuts...*/
 	padding: 2em 0;	
 }
 
@@ -114,7 +114,15 @@ hr {
 
 /* layout */
 header {
-	background: #303030;
+	background: #798283;
+	padding: 1em 0;
+    -webkit-transition: all .1s ease-in-out;  
+	-moz-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out; 
+}
+
+header:hover {
+	background: #A0A6A7;
 	padding: 1em 0;
 }
 
@@ -166,7 +174,7 @@ h1.logo a {
 }
 
 h1.logo a:hover {
-	color: tomato;
+	color: #3aa4ce;
 }
 
 header .wrapper {
@@ -193,7 +201,7 @@ header nav a {
 	display: inline-block;
 }
 header nav a:hover {
-	background: tomato;
+	background: #3aa4ce;
 	color: white;	
 }
 
