@@ -26,10 +26,6 @@ If you want clean urls, `mv htaccess .htaccess`
 
 Stacey uses the [Twig templating language](http://twig.sensiolabs.org/).
 
-There are an additional two sets of templates which can be found at:
-<http://github.com/kolber/stacey-template2> &
-<http://github.com/kolber/stacey-template3>
-
 ### Documentation
 
 Check out [staceyapp.com](http://staceyapp.com/documentation/) for guides and documentation.
