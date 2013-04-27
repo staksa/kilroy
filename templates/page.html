@@ -1,0 +1,34 @@
+{% include 'partials/head.html' %}
+	
+<section class="main clearfix">
+
+	<div class="wrapper">	
+
+		<aside class="sidebar">
+		
+			{% include 'partials/nav_articles.html' %}
+		
+		</aside><!--/ sidebar -->
+	
+		<div class="tasters">	
+
+			<article>
+		
+				<h2>{{ page.page_title }}</h2>
+						
+				{{ page.content }}
+
+				{% include 'partials/assets/media.html' %}
+								
+			</article>
+            	
+            <hr>
+			
+		</div><!--/ tasters -->	
+	
+	</div> <!--/ wrapper -->
+
+</section><!--/ main -->
+
+{% include 'partials/footer.html' %}
+

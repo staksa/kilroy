@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Metaaaa -->
+	<meta charset="utf-8">
+	<title>{{ page.title }} | {{ page.page_title }}</title>
+	<meta name="description" content="{{ page.description }}">
+	<meta name="author" content="{{ page.name }}">
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="{{ page.root_path }}/css/normalize.css">
+	<link rel="stylesheet" href="{{ page.root_path }}/css/styles.css">
+
+	<!--[if lt IE 9]>
+		<script src="{{ page.root_path }}/js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="{{ page.root_path }}/img/favicon.ico" />
+	<link rel="apple-touch-icon" href="{{ page.root_path }}/img/apple-touch-icon.png" />
+</head>
+<body>
+		<header class="clearfix">
+		
+			<div class="wrapper">
+		
+				<h1 class="logo">
+					<a href="{{ page.root_path }}">Arek Komarnicki</a>
+				</h1>
+				<nav>
+					<ul>
+						{% for child in page.root %}
+							{% if child.page_title %}							
+								<li><a href="{{ child.url }}">{{ child.page_title }}</a></li>
+							{% endif %}	
+						{% endfor %}
+					</ul>
+				</nav>
+			
+			</div> <!--/ wrapper -->
+			
+		</header>	

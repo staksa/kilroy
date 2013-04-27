@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Metaaaa -->
+	<meta charset="utf-8">
+	<title>Staceyapp Demo | Webdesigntuts+ | About Me</title>
+	<meta name="description" content="A demonstration of Stacey; a framework for building simple dynamic html websites.">
+	<meta name="author" content="Ian Yates">
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="..//css/normalize.css">
+	<link rel="stylesheet" href="..//css/styles.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="..//img/favicon.ico" />
+	<link rel="apple-touch-icon" href="..//img/apple-touch-icon.png" />
+
+</head>
+<body>
+	
+		<header class="clearfix">
+		
+			<div class="wrapper">
+		
+				<h1 class="logo">
+					<a href="../">Demo</a>
+				</h1>
+			
+				<nav>
+					<ul>
+																				
+								<li><a href="../about/">About Me</a></li>
+								
+																				
+								<li><a href="../contact/">Contact</a></li>
+								
+														
+											</ul>
+				</nav>
+			
+			</div> <!--/ wrapper -->
+			
+		</header>		
+<section class="main clearfix">
+
+	<div class="wrapper">	
+
+		<aside class="sidebar">
+		
+			          <ul>
+        	<li><a href="../articles/leather/">Photographing Leather</a></li>
+        	<li><a href="../articles/rolling-cheese/">Rolling Cheese: the Correct Way</a></li>
+        	<li><a href="../articles/taxi-driver/">Making Money as a Taxi Driver</a></li>
+        	<li><a href="../articles/snake-skin/">How to Skin a Rattlesnake</a></li>
+        </ul>
+  		
+		</aside><!--/ sidebar -->
+	
+		<div class="tasters">	
+
+			<article>
+		
+				<h2>About Me</h2>
+						
+				<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong></p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est &amp; laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est &amp; laborum.</p>
+
+								
+			</article>
+            	
+            <hr>
+			
+		</div><!--/ tasters -->	
+	
+	</div> <!--/ wrapper -->
+
+</section><!--/ main -->
+
+		
+		<footer>
+	
+			<div class="wrapper">
+	
+				<p>&copy; Copyright Ian Yates 2012 <a class="atom-rss" href="..//feed">RSS</a> CMS by <a href="http://www.staceyapp.com">stacey</a>
+			
+			</div> <!--/ wrapper -->
+	
+		</footer>	
+		
+		<!--required js-->
+		<script src="..//js/disqus.js"></script>
+		
+</body>
+</html>		

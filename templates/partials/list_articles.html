@@ -1,0 +1,23 @@
+{% for child in page.root %}
+  {% if child.children %}
+
+    {% for child in child.children %}
+    
+		<article>
+		
+			<h2><a href="{{ child.url }}">{{ child.page_title }}</a></h2>
+			
+			<p class="meta">by <a href="#">{{ child.author }}</a> on <a href="#">{{ child.date }}</a> with <a href="{{ child.url }}#disqus_thread">Comments</a></p>
+			
+			{{ child.intro }}
+			
+			<p><a href="{{ child.url }}">Read more..</a></p>
+			
+			<hr>
+
+		</article>
+					   	
+    {% endfor %}
+
+  {% endif %}
+{% endfor %}

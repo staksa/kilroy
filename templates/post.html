@@ -1,0 +1,45 @@
+{% include 'partials/head.html' %}
+	
+<section class="main clearfix">
+
+	<div class="wrapper">	
+
+		<aside class="sidebar">
+		
+			{% include 'partials/nav_articles.html' %}
+		
+		</aside><!--/ sidebar -->
+	
+		<div class="tasters">	
+
+			<article>
+		
+				<h2>{{ page.page_title }}</h2>
+				
+				<p class="meta">by <a href="#">{{ page.author }}</a> on <a href="#">{{ page.date }}</a> with <a href="{{ page.url }}#disqus_thread">Comments</a></p>
+				
+				{{ page.content }}
+				
+				{% include 'partials/assets/media.html' %}
+								
+			</article>
+						
+			{% if page.siblings %}
+            	{% include 'partials/link_prev.html' %}
+            	{% include 'partials/link_next.html' %}
+            {% endif %}
+            
+			<hr>
+			
+			<div id="disqus_thread"></div>
+	        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>		
+		
+		</div><!--/ tasters -->	
+	
+	</div> <!--/ wrapper -->
+
+</section><!--/ main -->
+		
+{% include 'partials/footer.html' %}
+
