@@ -1,10 +1,10 @@
-## What is Kilroy?
+## Kilroy?
 
 Kilroy is my minimal blog and resume. Kilroy is build on Stacey - minimal cms, which is database free. Stacey makes creating posts and pages super easy. And to make this all even more cool --everything is responsive.
 
 ![Kilroy Mock-up](kilroy-mockup.png "kilroy design mock-up image")
 
-## What is Stacey?
+## Stacey?
 
 Stacey is a lightweight content management system.
 No database setup or installation files, simply drop the application on a server and it runs. 
