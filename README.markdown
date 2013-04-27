@@ -4,6 +4,9 @@ Kilroy is my minimal blog and resume. Kilroy is build on Stacey - minimal cms, w
 
 ## What is Stacey?
 
+Stacey is a lightweight content management system.
+No database setup or installation files, simply drop the application on a server and it runs. 
+Your content is managed by creating folders and editing text files. No login screens, no admin interface.
 
 ### Overview
 Stacey takes content from `.yml` files, image files and implied directory structure and generates a website.
