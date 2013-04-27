@@ -1,6 +1,6 @@
 page_title: About Me
 content: |
-  **Hey, my name is Arek Komarnicki aka "arekom" and I'm 22 years old 'want to be' web developer. Nice to meet you!**
+  **Hey, my name is Arek Komarnicki aka "arekom" and I'm 22 years old "someday" web developer. Nice to meet you!**
 
   I have graduated from Middlesex University of London in the field of Computer Newtorks 'Network Programming' to be exact.
   And since then I'm trying to find my place in this realm of technology, exploring all of it's possibilities...
@@ -18,8 +18,8 @@ content: |
   but I needed something that didn't required syncing the database or me to push everything to heroku and github branches everytime. 
   Therefore after couple of weeks Kilroy met [Stacey](http://staceyapp.com/).
 
-  Stacey it's a *lightweight content management system. No database setup or installation files, simply drop the application on a server and it runs. 
-  Your content is managed by creating folders and editing text files. No login screens, no admin interface*.
+  **Stacey it's a lightweight content management system. No database setup or installation files, simply drop the application on a server and it runs. 
+  Your content is managed by creating folders and editing text files. No login screens, no admin interface**.
 
   I enjoy working with new technologies so the task of deploying new blogging framework wasn't a big one.
 
