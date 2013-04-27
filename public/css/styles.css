@@ -13,9 +13,9 @@
 .clearfix:after {
   clear: both; }
 
-.clearfix {
-  zoom: 1; }
-
+.clearfix {	
+  zoom: 1; 
+}
     
 /* apply a natural box layout model to all elements */
 * { 
@@ -49,36 +49,46 @@ img {
 body {
 	font-size: 100%;
 	line-height: 1.5em;
-	font-family: Helvetica, sans-serif;
-	color: #303030;
+	font-family: 'Droid Sans', sans-serif;
+	color: #000;
 }
 
 h2 {
 	font-size: 2em;
 	line-height: 1.2em;
+	color: #1c455b;
 }
-
-a,
-a:visited {
-	color: #BEC3C4;	
+span {
+	text-decoration: line-through;
+	color: #1c455b;
 }
-
-
-h2 a,
-h2 a:visited,
-h3 a,
-h3 a:visited {	
-	color: #303030;
+p > a { 
 	text-decoration: none;
 }
 
-a:hover,
-h2 a:hover,
-h3 a:hover {
-	text-decoration: none;
-	color: #BEC3C4;	
+a { 
+	color: #1c455b;
+	font-weight: bold;
+	text-decoration: none;	
+	-webkit-transition: all .1s ease-in-out;  
+	-moz-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out; 
 }
 
+h2 a,h3 a,{
+	color: #1c455b;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #6F818F;	
+}
+p.nav-title {
+	font-weight: bold;
+	font-size: 1.5em;
+	color:#133E55;
+}
 hr {
 	border: none;
 	border-bottom: 3px solid #ccc;
@@ -97,10 +107,9 @@ hr {
 
 }
 
-
 /* hero */
 .hero {
-	background: #525F60; /* love this colour - it's nuts...*/
+	background: #DC6465;
 	padding: 2em 0;	
 }
 
@@ -114,22 +123,21 @@ hr {
 
 /* layout */
 header {
-	background: #798283;
+	background: #133E55;
 	padding: 1em 0;
-    -webkit-transition: all .1s ease-in-out;  
+    /*-webkit-transition: all .1s ease-in-out;  
 	-moz-transition: all .1s ease-in-out;
-	transition: all .1s ease-in-out; 
+	transition: all .1s ease-in-out; */
 }
 
-header:hover {
-	background: #A0A6A7;
+/*header:hover {
+	background: #255f7c;
 	padding: 1em 0;
-}
+}*/
 
 .wrapper {
 	padding: 1em;
 }
-
 
 
 @media only screen and (min-width: 700px) {
@@ -166,23 +174,27 @@ h1.logo {
 	margin: 0;
 }
 
-h1.logo a {
+h1.logo a { /*arek komarnicki title*/
+	margin-left: 10px;
 	line-height: 2em;
 	height: 2em;
 	width: 100%;
 	color: white;
+	-webkit-transition: all .1s ease-in-out;  
+	-moz-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out; 
 }
 
-h1.logo a:hover {
-	color: #3aa4ce;
+h1.logo a:hover { /*arek komarnicki title*/
+	color: #DC6465;
 }
 
 header .wrapper {
 	padding: 0;
 	text-align: center;
+
 }
 header a {
-	color: #cccccc;
 	text-decoration: none;
 }
 
@@ -199,10 +211,11 @@ header nav a {
 	padding: 0 1em;
 	line-height: 4em;
 	display: inline-block;
+	color: white;
 }
+
 header nav a:hover {
-	background: #3aa4ce;
-	color: white;	
+	color: #DC6465;	
 }
 
 @media only screen and (min-width: 700px) {
@@ -217,7 +230,6 @@ header nav a:hover {
 	header nav ul {
 		float: right;
 	}
-
 }
 
 /*articles*/
@@ -254,7 +266,7 @@ ul.index li {
 
 /* aside */
 .main aside {
-	margin: 3em 0 0;
+	margin: 1.7em 0 0;
 	padding: 0 3em 0 0;	
 }
 
