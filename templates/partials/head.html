@@ -15,13 +15,14 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ page.root_path }}/css/normalize.css">
-	<link rel="stylesheet" href="{{ page.root_path }}/css/styles.css">
-
+	<link rel="stylesheet" href="{{ page.root_path }}/css/styles.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 
+	<!-- JS -->
 	<!--[if lt IE 9]>
 		<script src="{{ page.root_path }}/js/html5shiv.js"></script>
 	<![endif]-->
+
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="{{ page.root_path }}/img/favicon.ico" />
@@ -37,13 +38,14 @@
 				</h1>
 				<nav>
 					<ul>
+						<a href="{{ page.root_path }}blog/">Blog</a>
 						{% for child in page.root %}
 							{% if child.page_title %}							
 								<li><a href="{{ child.url }}">{{ child.page_title }}</a></li>
 							{% endif %}	
 						{% endfor %}
 					</ul>
-				</nav>
+				</nav> <!--/ responsive-nav -->
 			
 			</div> <!--/ wrapper -->
 			
