@@ -16,11 +16,14 @@ class __TwigTemplate_fd39524ef9c5128f77374b8a6af61435 extends Twig_Template
 \t
 \t\t\t<div class=\"wrapper\">
 \t
-\t\t\t\t<p>&copy; Copyright Ian Yates 2012 <a class=\"atom-rss\" href=\"";
+\t\t\t\t<p>&copy; Copyright ";
         // line 6
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
+        echo $this->getAttribute($_page_, "name");
+        echo " 2013 <a class=\"atom-rss\" href=\"";
+        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
-        echo "/feed\">RSS</a> CMS by <a href=\"http://www.staceyapp.com\">stacey</a>
+        echo "/feed\">RSS</a> Powered by <a href=\"http://www.staceyapp.com\">stacey</a>
 \t\t\t
 \t\t\t</div> <!--/ wrapper -->
 \t
@@ -32,7 +35,6 @@ class __TwigTemplate_fd39524ef9c5128f77374b8a6af61435 extends Twig_Template
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
         echo "/js/disqus.js\"></script>
-\t\t
 </body>
 </html>\t\t";
     }

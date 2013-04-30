@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Metaaaa -->
+	<meta charset="utf-8">
+	<title>Arek Komarnicki | Blog and Resume | My thoughts on Stacey App</title>
+	<meta name="description" content="A tiny blog and resume of Arek Komarnicki; Powered by staceyapp">
+	<meta name="author" content="Arek Komarnicki">
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="../..//css/normalize.css">
+	<link rel="stylesheet" href="../..//css/styles.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+		<script src="../..//js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="../..//img/favicon.ico" />
+	<link rel="apple-touch-icon" href="../..//img/apple-touch-icon.png" />
+</head>
+<body>
+		<header class="clearfix">
+		
+			<div class="wrapper">
+		
+				<h1 class="logo">
+					<a href="../../">Arek Komarnicki</a>
+				</h1>
+				<nav>
+					<ul>
+																				
+								<li><a href="../../about/">About</a></li>
+								
+																				
+								<li><a href="../../projects/">Projects</a></li>
+								
+																				
+								<li><a href="../../contact/">Contact Me</a></li>
+								
+														
+											</ul>
+				</nav>
+			
+			</div> <!--/ wrapper -->
+			
+		</header>		
+<section class="main clearfix">
+
+	<div class="wrapper">	
+
+		<aside class="sidebar">
+		
+			          <p class="nav-title">Latest Articles</p>
+    <ul>
+        	<li><a href="../../articles/learning/">Kilroy - the journey of a blog</a></li>
+        	<li><a href="../../articles/thoughts/">My thoughts on Stacey App</a></li>
+        </ul>
+  		
+		</aside><!--/ sidebar -->
+	
+		<div class="tasters">	
+
+			<article>
+		
+				<h2>My thoughts on Stacey App</h2>
+				
+				<p class="meta">by <a href="#">Arek Komarnicki</a> on <a href="#">27 Apr 2013</a> with <a href="../../articles/thoughts/#disqus_thread">Comments</a></p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				
+				<div id="media">
+        <div class="image">
+    <img src="../../content/4.articles/2.thoughts/image1.jpg" alt="" width="600" height="400">
+      </div>
+  
+  
+  
+  
+</div>								
+			</article>
+						
+			            	  <span class="link_prev">&larr; <a href="../../articles/learning/">Kilroy - the journey of a blog</a></span>
+            		<span class="link_next"><a href="../../articles/learning/">Kilroy - the journey of a blog</a> &rarr;</span>
+                        
+			<hr>
+			
+			<div id="disqus_thread"></div>
+	        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>		
+		
+		</div><!--/ tasters -->	
+	
+	</div> <!--/ wrapper -->
+
+</section><!--/ main -->
+		
+		
+		<footer>
+	
+			<div class="wrapper">
+	
+				<p>&copy; Copyright Arek Komarnicki 2013 <a class="atom-rss" href="../..//feed">RSS</a> Powered by <a href="http://www.staceyapp.com">stacey</a>
+			
+			</div> <!--/ wrapper -->
+	
+		</footer>	
+		
+		<!--required js-->
+		<script src="../..//js/disqus.js"></script>
+</body>
+</html>		

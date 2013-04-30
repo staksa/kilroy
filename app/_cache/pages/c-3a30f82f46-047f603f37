@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Metaaaa -->
+	<meta charset="utf-8">
+	<title>Arek Komarnicki | Blog and Resume | About</title>
+	<meta name="description" content="A tiny blog and resume of Arek Komarnicki; Powered by staceyapp">
+	<meta name="author" content="Arek Komarnicki">
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="..//css/normalize.css">
+	<link rel="stylesheet" href="..//css/styles.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+		<script src="..//js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="..//img/favicon.ico" />
+	<link rel="apple-touch-icon" href="..//img/apple-touch-icon.png" />
+</head>
+<body>
+		<header class="clearfix">
+		
+			<div class="wrapper">
+		
+				<h1 class="logo">
+					<a href="../">Arek Komarnicki</a>
+				</h1>
+				<nav>
+					<ul>
+						<a href="../">Blog</a>
+																				
+								<li><a href="../about/">About</a></li>
+								
+																				
+								<li><a href="../projects/">Projects</a></li>
+								
+																				
+								<li><a href="../contact/">Contact Me</a></li>
+								
+														
+											</ul>
+				</nav>
+			
+			</div> <!--/ wrapper -->
+			
+		</header>		
+<section class="main clearfix">
+
+	<div class="wrapper">	
+
+		<aside class="sidebar">
+		
+			          <p class="nav-title">Latest Articles</p>
+    <ul>
+        	<li><a href="../articles/learning/">Kilroy - the journey of a blog</a></li>
+        	<li><a href="../articles/thoughts/">My thoughts on Stacey App</a></li>
+        </ul>
+  		
+		</aside><!--/ sidebar -->
+	
+		<div class="tasters">	
+
+			<article>
+		
+				<h2>About</h2>
+						
+				<p><strong>Hey, my name is Arek Komarnicki aka "arekom" and I'm 22 years old "someday" web developer. Nice to meet you!</strong></p>
+
+<p>I have graduated from Middlesex University of London in the field of Computer Newtorks 'Network Programming' to be exact.
+And since then I'm trying to find my place in this realm of technology, exploring all of it's possibilities...</p>
+
+<p>But I presume you are here, because you want to know a little bit more about this blog
+or what I the author can offer you. Well, this blog is my place to collect all my thoughts, findings and experiences about 
+everything related to web, it can be development or some fancy design --I like those flat UI's in particular.
+And now please let me take you on the short journey of Kilroy's history.</p>
+
+<p>My older blog "Kilroy" was powered by the Octpress framework and was hosted on Heroku.</p>
+
+<p>After couple of week of using the Octpress framework, I came to the conclusion that it was a little overkill to do all this unnecessary 
+stuff just to post an article once in a week.
+Don't get me wrong I still love the Octopress and I think it's a one of the best blogging frameworks out there 
+but I needed something that didn't required syncing the database or me to push everything to heroku and github branches everytime. 
+Therefore after couple of weeks Kilroy met <a href="http://staceyapp.com/">Stacey</a>.</p>
+
+<p><strong>Stacey it's a lightweight content management system. No database setup or installation files, simply drop the application on a server and it runs. 
+Your content is managed by creating folders and editing text files. No login screens, no admin interface</strong>.</p>
+
+<p>I enjoy working with new technologies so the task of deploying new blogging framework wasn't a big one.</p>
+
+<p>Therefore I deplyoed the new framework and started the styling part and that mark the end of this short story. By the way, if you want to see some code and projects 
+I'm currently working on, I put my code on <a href="http://github.com/arekom">GitHub</a> so feel free to fork whatever you like and 
+if you have any comments, just drop me a line. Besides the GitHub I also hang out mostly on 
+<a href="http://plus.google.com/111893046260780461288">Google+</a> and <a href="http://twitter.com/arekom_">Twitter</a>.</p>
+
+<p>I also love to travel, so when you visit me on <a href="http://www.facebook.com/arek.komarnicki/map">Facebook</a> you will find out more about that.</p>
+
+<p>Ok, that's it for now. I would love to write more but then you wouldn't have time to explore this awesome blog! 
+But if you want to chat or you have an awesome project you want to talk about please send me a message via contact form and I promise you to respond within 24 hours.</p>
+
+<p>Take care!</p>
+
+
+				<div id="media">
+  
+  
+  
+  
+</div>								
+			</article>
+			
+		</div><!--/ tasters -->	
+	
+	</div> <!--/ wrapper -->
+
+</section><!--/ main -->
+
+		
+		<footer>
+	
+			<div class="wrapper">
+	
+				<p>&copy; Copyright Arek Komarnicki 2013 <a class="atom-rss" href="..//feed">RSS</a> Powered by <a href="http://www.staceyapp.com">stacey</a>
+			
+			</div> <!--/ wrapper -->
+	
+		</footer>	
+		
+		<!--required js-->
+		<script src="..//js/disqus.js"></script>
+</body>
+</html>		

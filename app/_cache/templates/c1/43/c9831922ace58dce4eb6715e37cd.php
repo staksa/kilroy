@@ -17,11 +17,10 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
 <!--[if IE 8 ]><html class=\"ie ie8\" lang=\"en\"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang=\"en\"> <!--<![endif]-->
 <head>
-
 \t<!-- Metaaaa -->
 \t<meta charset=\"utf-8\">
 \t<title>";
-        // line 10
+        // line 9
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "title");
         echo " | ";
@@ -29,12 +28,12 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
         echo $this->getAttribute($_page_, "page_title");
         echo "</title>
 \t<meta name=\"description\" content=\"";
-        // line 11
+        // line 10
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "description");
         echo "\">
 \t<meta name=\"author\" content=\"";
-        // line 12
+        // line 11
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "name");
         echo "\">
@@ -44,35 +43,40 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
 
 \t<!-- CSS -->
 \t<link rel=\"stylesheet\" href=\"";
-        // line 18
+        // line 17
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
         echo "/css/normalize.css\">
 \t<link rel=\"stylesheet\" href=\"";
-        // line 19
+        // line 18
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
-        echo "/css/styles.css\">
+        echo "/css/styles.min.css\">
+\t<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 
+\t<!-- JS -->
 \t<!--[if lt IE 9]>
-\t\t<script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script>
+\t\t<script src=\"";
+        // line 23
+        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
+        echo $this->getAttribute($_page_, "root_path");
+        echo "/js/html5shiv.js\"></script>
 \t<![endif]-->
+
 
 \t<!-- Favicons -->
 \t<link rel=\"shortcut icon\" href=\"";
-        // line 26
+        // line 28
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
         echo "/img/favicon.ico\" />
 \t<link rel=\"apple-touch-icon\" href=\"";
-        // line 27
+        // line 29
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
         echo "/img/apple-touch-icon.png\" />
-
 </head>
 <body>
-\t
 \t\t<header class=\"clearfix\">
 \t\t
 \t\t\t<div class=\"wrapper\">
@@ -82,11 +86,15 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
         // line 37
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
-        echo "\">Demo</a>
+        echo "\">Arek Komarnicki</a>
 \t\t\t\t</h1>
-\t\t\t
 \t\t\t\t<nav>
 \t\t\t\t\t<ul>
+\t\t\t\t\t\t<a href=\"";
+        // line 41
+        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
+        echo $this->getAttribute($_page_, "root_path");
+        echo "blog/\">Blog</a>
 \t\t\t\t\t\t";
         // line 42
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
@@ -117,7 +125,7 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
         $context = array_merge($_parent, array_intersect_key($context, $_parent));
         // line 47
         echo "\t\t\t\t\t</ul>
-\t\t\t\t</nav>
+\t\t\t\t</nav> <!--/ responsive-nav -->
 \t\t\t
 \t\t\t</div> <!--/ wrapper -->
 \t\t\t

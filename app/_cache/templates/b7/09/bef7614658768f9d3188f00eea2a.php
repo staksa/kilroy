@@ -11,27 +11,34 @@ class __TwigTemplate_b709bef7614658768f9d3188f00eea2a extends Twig_Template
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
+        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         $context['_parent'] = (array) $context;
-        $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "images"));
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute($_page_, "images"));
         foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
             // line 2
             echo "  <div class=\"image\">
     <img src=\"";
             // line 3
-            echo $this->getAttribute((isset($context["image"]) ? $context["image"] : null), "url");
+            if (isset($context["image"])) { $_image_ = $context["image"]; } else { $_image_ = null; }
+            echo $this->getAttribute($_image_, "url");
             echo "\" alt=\"";
-            echo $this->getAttribute((isset($context["image"]) ? $context["image"] : null), "title");
+            if (isset($context["image"])) { $_image_ = $context["image"]; } else { $_image_ = null; }
+            echo $this->getAttribute($_image_, "title");
             echo "\" width=\"";
-            echo $this->getAttribute((isset($context["image"]) ? $context["image"] : null), "width");
+            if (isset($context["image"])) { $_image_ = $context["image"]; } else { $_image_ = null; }
+            echo $this->getAttribute($_image_, "width");
             echo "\" height=\"";
-            echo $this->getAttribute((isset($context["image"]) ? $context["image"] : null), "height");
+            if (isset($context["image"])) { $_image_ = $context["image"]; } else { $_image_ = null; }
+            echo $this->getAttribute($_image_, "height");
             echo "\">
     ";
             // line 4
-            if ($this->getAttribute((isset($context["image"]) ? $context["image"] : null), "description")) {
+            if (isset($context["image"])) { $_image_ = $context["image"]; } else { $_image_ = null; }
+            if ($this->getAttribute($_image_, "description")) {
                 // line 5
                 echo "      <em>";
-                echo $this->getAttribute((isset($context["image"]) ? $context["image"] : null), "description");
+                if (isset($context["image"])) { $_image_ = $context["image"]; } else { $_image_ = null; }
+                echo $this->getAttribute($_image_, "description");
                 echo "</em>
     ";
             }

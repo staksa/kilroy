@@ -18,12 +18,11 @@ class __TwigTemplate_abe9c9159a1b76865e388f59266dca88 extends Twig_Template
 
 \t<div class=\"wrapper\">
 
-\t\t<h2>I'd Like to Introduce You to a Friend of Mine</h2>
+\t\t<h2>I'd Rather Be <span>Sleeping</span> Coding.</h2>
 \t\t
 \t</div> <!--/ wrapper -->
 
 </section>
-
 <section class=\"main clearfix\">
 
 \t<div class=\"wrapper\">\t
@@ -31,18 +30,18 @@ class __TwigTemplate_abe9c9159a1b76865e388f59266dca88 extends Twig_Template
 \t\t<aside class=\"sidebar\">
 \t\t
 \t\t\t";
-        // line 19
+        // line 18
         $this->env->loadTemplate("partials/nav_articles.html")->display($context);
-        // line 20
+        // line 19
         echo "\t\t
 \t\t</aside><!--/ sidebar -->
 \t
 \t\t<div class=\"tasters\">\t
 
 \t\t\t";
-        // line 25
+        // line 24
         $this->env->loadTemplate("partials/list_articles.html")->display($context);
-        // line 26
+        // line 25
         echo "\t\t\t
 \t\t</div><!--/ tasters -->\t
 \t
@@ -50,12 +49,10 @@ class __TwigTemplate_abe9c9159a1b76865e388f59266dca88 extends Twig_Template
 
 </section><!--/ main -->
 
+
 ";
         // line 33
         $this->env->loadTemplate("partials/footer.html")->display($context);
-        // line 34
-        echo "
-";
     }
 
     public function getTemplateName()

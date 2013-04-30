@@ -14,7 +14,8 @@ class __TwigTemplate_5f4d4379721b04785fd9e1005be9077c extends Twig_Template
         echo "<div id=\"media\">
   ";
         // line 2
-        if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "images")) {
+        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
+        if ($this->getAttribute($_page_, "images")) {
             // line 3
             echo "    ";
             $this->env->loadTemplate("partials/assets/images.html")->display($context);
@@ -25,7 +26,8 @@ class __TwigTemplate_5f4d4379721b04785fd9e1005be9077c extends Twig_Template
         echo "
   ";
         // line 6
-        if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "video")) {
+        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
+        if ($this->getAttribute($_page_, "video")) {
             // line 7
             echo "    ";
             $this->env->loadTemplate("partials/assets/video.html")->display($context);
@@ -36,7 +38,8 @@ class __TwigTemplate_5f4d4379721b04785fd9e1005be9077c extends Twig_Template
         echo "
   ";
         // line 10
-        if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "swf")) {
+        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
+        if ($this->getAttribute($_page_, "swf")) {
             // line 11
             echo "    ";
             $this->env->loadTemplate("partials/assets/swf.html")->display($context);
@@ -47,7 +50,8 @@ class __TwigTemplate_5f4d4379721b04785fd9e1005be9077c extends Twig_Template
         echo "
   ";
         // line 14
-        if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "html")) {
+        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
+        if ($this->getAttribute($_page_, "html")) {
             // line 15
             echo "    ";
             $this->env->loadTemplate("partials/assets/html.html")->display($context);

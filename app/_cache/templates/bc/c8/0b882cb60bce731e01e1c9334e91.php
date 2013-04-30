@@ -42,10 +42,13 @@ class __TwigTemplate_bcc80b882cb60bce731e01e1c9334e91 extends Twig_Template
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "content");
         echo "
-\t\t\t\t\t\t\t\t
+
+\t\t\t\t";
+        // line 21
+        $this->env->loadTemplate("partials/assets/media.html")->display($context);
+        // line 22
+        echo "\t\t\t\t\t\t\t\t
 \t\t\t</article>
-            \t
-            <hr>
 \t\t\t
 \t\t</div><!--/ tasters -->\t
 \t

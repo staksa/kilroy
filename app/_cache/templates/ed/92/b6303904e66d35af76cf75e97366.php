@@ -81,7 +81,7 @@ class __TwigTemplate_ed92b6303904e66d35af76cf75e97366 extends Twig_Template
 \t\t\t
 \t\t\t<div id=\"disqus_thread\"></div>
 \t        <noscript>Please enable JavaScript to view the <a href=\"http://disqus.com/?ref_noscript\">comments powered by Disqus.</a></noscript>
-\t        <a href=\"http://disqus.com\" class=\"dsq-brlink\">comments powered by <span class=\"logo-disqus\">Disqus</span></a>\t\t
+    \t\t<a href=\"http://disqus.com\" class=\"dsq-brlink\">comments powered by <span class=\"logo-disqus\">Disqus</span></a>\t\t
 \t\t
 \t\t</div><!--/ tasters -->\t
 \t
