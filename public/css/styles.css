@@ -75,6 +75,10 @@ a {
 	transition: all .1s ease-in-out; 
 }
 
+small {
+	font-size: 1em;
+}
+
 h2 a,h3 a,{
 	color: #1c455b;
 	text-decoration: none;
@@ -89,6 +93,13 @@ p.nav-title {
 	font-size: 1.5em;
 	color:#133E55;
 }
+
+p.nav-social {
+	font-weight: bold;
+	font-size: 1.5em;
+	color:#133E55;
+}
+
 hr {
 	border: none;
 	border-bottom: 3px solid #ccc;
@@ -137,36 +148,6 @@ header {
 
 .wrapper {
 	padding: 1em;
-}
-
-
-@media only screen and (min-width: 700px) {
-
-	.wrapper {
-		width: 70%;
-		margin: 0 auto;
-		padding: 1em 0;
-	}
-	
-	.hero {
-		padding: 3em 0;	
-	}
-	
-	.hero h2 {
-		width: 80%;
-		font-size: 5em;
-	}
-	
-	.main .tasters {
-		width: 70%;
-		float: right;
-	}
-	
-	.main aside {
-		width: 30%;
-		float: left;
-	}
-
 }
 
 /* header */
@@ -218,17 +199,70 @@ header nav a:hover {
 	color: #DC6465;	
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
+
+	.wrapper {
+		width: 70%;
+		margin: 0 auto;
+		padding: 1em 0;
+	}
+	
+	.hero {
+		padding: 3em 0;	
+	}
+	
+	.hero h2 {
+		width: 80%;
+		font-size: 5em;
+	}
+	
+	.main .tasters {
+		width: 70%;
+		float: right;
+	}
+	
+	.main aside {
+		width: 30%;
+		float: left;
+	}
+}
+
+
+@media only screen and (min-width: 1230px) {
 
 	h1.logo a {
 		float: left;
 		display: block;
-		text-align: left;
+		text-align: center;
 		width: auto;
 	}
 	
 	header nav ul {
 		float: right;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	h1.logo a {
+		display: block;
+		text-align: center;
+		width: auto;
+	}
+	
+	header nav ul {
+		text-align: center;
+	}
+
+	.main aside {
+		display: none;
+	}
+
+	.hero h2 {
+		width: 80%;
+		font-size: 2em;
 	}
 }
 
