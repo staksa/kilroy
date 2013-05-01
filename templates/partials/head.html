@@ -15,7 +15,7 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ page.root_path }}/css/normalize.css">
-	<link rel="stylesheet" href="{{ page.root_path }}/css/styles.min.css">
+	<link rel="stylesheet" href="{{ page.root_path }}/css/styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 
 	<!-- JS -->
@@ -38,7 +38,7 @@
 				</h1>
 				<nav>
 					<ul>
-						<a href="{{ page.root_path }}blog/">Blog</a>
+						<a href="{{ page.root_path }}resume/">Resume</a>
 						{% for child in page.root %}
 							{% if child.page_title %}							
 								<li><a href="{{ child.url }}">{{ child.page_title }}</a></li>
