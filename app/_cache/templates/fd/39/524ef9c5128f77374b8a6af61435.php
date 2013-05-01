@@ -34,7 +34,7 @@ class __TwigTemplate_fd39524ef9c5128f77374b8a6af61435 extends Twig_Template
         // line 13
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
-        echo "/js/disqus.js\"></script>
+        echo "/js/disqus.min.js\"></script>
 </body>
 </html>\t\t";
     }

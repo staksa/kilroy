@@ -33,15 +33,20 @@ class __TwigTemplate_abe9c9159a1b76865e388f59266dca88 extends Twig_Template
         // line 18
         $this->env->loadTemplate("partials/nav_articles.html")->display($context);
         // line 19
+        echo "
+\t\t\t";
+        // line 20
+        $this->env->loadTemplate("partials/nav_social.html")->display($context);
+        // line 21
         echo "\t\t
 \t\t</aside><!--/ sidebar -->
 \t
 \t\t<div class=\"tasters\">\t
 
 \t\t\t";
-        // line 24
+        // line 26
         $this->env->loadTemplate("partials/list_articles.html")->display($context);
-        // line 25
+        // line 27
         echo "\t\t\t
 \t\t</div><!--/ tasters -->\t
 \t
@@ -51,7 +56,7 @@ class __TwigTemplate_abe9c9159a1b76865e388f59266dca88 extends Twig_Template
 
 
 ";
-        // line 33
+        // line 35
         $this->env->loadTemplate("partials/footer.html")->display($context);
     }
 

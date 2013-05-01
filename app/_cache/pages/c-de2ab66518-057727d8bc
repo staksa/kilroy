@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Metaaaa -->
+	<meta charset="utf-8">
+	<title>Arek Komarnicki | Blog and Resume | Home</title>
+	<meta name="description" content="A tiny blog and resume of Arek Komarnicki; Powered by staceyapp">
+	<meta name="author" content="Arek Komarnicki">
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href=".//css/normalize.css">
+	<link rel="stylesheet" href=".//css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- JS -->
+	<!--[if lt IE 9]>
+		<script src=".//js/html5shiv.js"></script>
+	<![endif]-->
+
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href=".//img/favicon.ico" />
+	<link rel="apple-touch-icon" href=".//img/apple-touch-icon.png" />
+</head>
+<body>
+		<header class="clearfix">
+		
+			<div class="wrapper">
+		
+				<h1 class="logo">
+					<a href="./">Arek Komarnicki</a>
+				</h1>
+				<nav>
+					<ul>
+						<a href="./resume/">Resume</a>
+																				
+								<li><a href="./about/">About</a></li>
+								
+																				
+								<li><a href="./projects/">Latest Project</a></li>
+								
+																				
+								<li><a href="./contact/">Contact Me</a></li>
+								
+														
+											</ul>
+				</nav> <!--/ responsive-nav -->
+			
+			</div> <!--/ wrapper -->
+			
+		</header>		
+<section class="hero">
+
+	<div class="wrapper">
+
+		<h2>I'd Rather Be <span>Sleeping</span> Coding.</h2>
+		
+	</div> <!--/ wrapper -->
+
+</section>
+<section class="main clearfix">
+
+	<div class="wrapper">	
+
+		<aside class="sidebar">
+		
+			          <p class="nav-title">Latest Articles</p>
+    <ul>
+        	<li><a href="./articles/learning/">Kilroy - the short journey of my blog</a></li>
+        </ul>
+  
+			<p class="nav-social">Find me Here</p>
+	<ul>
+		<li>
+			<a href="#"><img src=".//img/facebook.png" alt="facebook"></a>
+			<a href="#"><img src=".//img/google.png" alt="google"></a>
+			<a href="#"><img src=".//img/git.png" alt="git"></a>
+			<a href="#"><img src=".//img/tumbler.png" alt="tumblr"></a>
+			<a href="#"><img src=".//img/twitter.png" alt="twitter"></a>
+			<a href="#"><img src=".//img/pinterest.png" alt="pinterest"></a>
+		</li>
+	</ul>		
+		</aside><!--/ sidebar -->
+	
+		<div class="tasters">	
+
+			        
+        
+		<article>
+		
+			<h2><a href="./articles/learning/">Kilroy - the short journey of my blog</a></h2>
+			
+			<p class="meta">by <a href="#">Arek Komarnicki</a> on <a href="#">28 Apr 2013</a> with <a href="./articles/learning/#disqus_thread">Comments</a></p>
+			
+			<p>Let me take you on the short journey of Kilroy's history.</p>
+
+			
+			<p><a href="./articles/learning/">Read more..</a></p>
+			
+			<hr>
+
+		</article>
+					   	
+    
+  			
+		</div><!--/ tasters -->	
+	
+	</div> <!--/ wrapper -->
+
+</section><!--/ main -->
+
+
+		
+		<footer>
+	
+			<div class="wrapper">
+	
+				<p>&copy; Copyright Arek Komarnicki 2013 <a class="atom-rss" href=".//feed">RSS</a> Powered by <a href="http://www.staceyapp.com">stacey</a>
+			
+			</div> <!--/ wrapper -->
+	
+		</footer>	
+		
+		<!--required js-->
+		<script src=".//js/disqus.min.js"></script>
+</body>
+</html>		

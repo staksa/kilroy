@@ -24,6 +24,11 @@ class __TwigTemplate_ed92b6303904e66d35af76cf75e97366 extends Twig_Template
         // line 9
         $this->env->loadTemplate("partials/nav_articles.html")->display($context);
         // line 10
+        echo "
+\t\t\t";
+        // line 11
+        $this->env->loadTemplate("partials/nav_social.html")->display($context);
+        // line 12
         echo "\t\t
 \t\t</aside><!--/ sidebar -->
 \t
@@ -32,13 +37,13 @@ class __TwigTemplate_ed92b6303904e66d35af76cf75e97366 extends Twig_Template
 \t\t\t<article>
 \t\t
 \t\t\t\t<h2>";
-        // line 17
+        // line 19
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "page_title");
         echo "</h2>
 \t\t\t\t
 \t\t\t\t<p class=\"meta\">by <a href=\"#\">";
-        // line 19
+        // line 21
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "author");
         echo "</a> on <a href=\"#\">";
@@ -50,32 +55,32 @@ class __TwigTemplate_ed92b6303904e66d35af76cf75e97366 extends Twig_Template
         echo "#disqus_thread\">Comments</a></p>
 \t\t\t\t
 \t\t\t\t";
-        // line 21
+        // line 23
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "content");
         echo "
 \t\t\t\t
 \t\t\t\t";
-        // line 23
+        // line 25
         $this->env->loadTemplate("partials/assets/media.html")->display($context);
-        // line 24
+        // line 26
         echo "\t\t\t\t\t\t\t\t
 \t\t\t</article>
 \t\t\t\t\t\t
 \t\t\t";
-        // line 27
+        // line 29
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         if ($this->getAttribute($_page_, "siblings")) {
-            // line 28
+            // line 30
             echo "            \t";
             $this->env->loadTemplate("partials/link_prev.html")->display($context);
-            // line 29
+            // line 31
             echo "            \t";
             $this->env->loadTemplate("partials/link_next.html")->display($context);
-            // line 30
+            // line 32
             echo "            ";
         }
-        // line 31
+        // line 33
         echo "            
 \t\t\t<hr>
 \t\t\t
@@ -90,9 +95,9 @@ class __TwigTemplate_ed92b6303904e66d35af76cf75e97366 extends Twig_Template
 </section><!--/ main -->
 \t\t
 ";
-        // line 44
+        // line 46
         $this->env->loadTemplate("partials/footer.html")->display($context);
-        // line 45
+        // line 47
         echo "
 ";
     }

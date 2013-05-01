@@ -51,7 +51,7 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
         // line 18
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
-        echo "/css/styles.min.css\">
+        echo "/css/styles.css\">
 \t<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 
 \t<!-- JS -->
@@ -94,7 +94,7 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
         // line 41
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
-        echo "blog/\">Blog</a>
+        echo "resume/\">Resume</a>
 \t\t\t\t\t\t";
         // line 42
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
