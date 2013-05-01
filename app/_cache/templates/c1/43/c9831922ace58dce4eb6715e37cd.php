@@ -116,15 +116,18 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
                 echo "</a></li>
 \t\t\t\t\t\t\t";
             }
-            // line 45
-            echo "\t
-\t\t\t\t\t\t";
+            // line 46
+            echo "\t\t\t\t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_merge($_parent, array_intersect_key($context, $_parent));
         // line 47
-        echo "\t\t\t\t\t</ul>
+        echo "\t\t\t\t\t\t<a href=\"";
+        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
+        echo $this->getAttribute($_page_, "root_path");
+        echo "contact/\">Contact Me</a>\t
+\t\t\t\t\t</ul>
 \t\t\t\t</nav> <!--/ responsive-nav -->
 \t\t\t
 \t\t\t</div> <!--/ wrapper -->

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Metaaaa -->
+	<meta charset="utf-8">
+	<title>Arek Komarnicki | Blog and Resume | Contact Me</title>
+	<meta name="description" content="A tiny blog and resume of Arek Komarnicki; Powered by staceyapp">
+	<meta name="author" content="Arek Komarnicki">
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="..//css/normalize.css">
+	<link rel="stylesheet" href="..//css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- JS -->
+	<!--[if lt IE 9]>
+		<script src="..//js/html5shiv.js"></script>
+	<![endif]-->
+
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="..//img/favicon.ico" />
+	<link rel="apple-touch-icon" href="..//img/apple-touch-icon.png" />
+</head>
+<body>
+		<header class="clearfix">
+		
+			<div class="wrapper">
+		
+				<h1 class="logo">
+					<a href="../">Arek Komarnicki</a>
+				</h1>
+				<nav>
+					<ul>
+						<a href="../resume/">Resume</a>
+																				
+								<li><a href="../about/">About</a></li>
+																											
+								<li><a href="../projects/">Latest Project</a></li>
+																																<a href="../contact/">Contact Me</a>	
+					</ul>
+				</nav> <!--/ responsive-nav -->
+			
+			</div> <!--/ wrapper -->
+			
+		</header>	
+<section class="main clearfix">
+
+
+
+</section><!--/ main -->
+
+
+		
+		<footer>
+	
+			<div class="wrapper">
+	
+				<p>&copy; Copyright Arek Komarnicki 2013 <a class="atom-rss" href="..//feed">RSS</a> Powered by <a href="http://www.staceyapp.com">stacey</a>
+			
+			</div> <!--/ wrapper -->
+	
+		</footer>	
+		
+		<!--required js-->
+		<script src="..//js/disqus.min.js"></script>
+</body>
+</html>		
