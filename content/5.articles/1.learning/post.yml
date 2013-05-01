@@ -1,14 +1,20 @@
-page_title: Kilroy - the journey of a blog
+page_title: Kilroy - the short journey of my blog
 date: 28 Apr 2013
 author: Arek Komarnicki
 intro: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  Let me take you on the short journey of Kilroy's history.
 content: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-      tell application "Foo"
-            beep
-        end tell
+  My older blog "Kilroy" was powered by the Octpress framework and was hosted on Heroku. 
+  After couple of week of using the Octpress framework, I came to the conclusion that it was a little overkill to do all this unnecessary 
+  stuff just to post an article once in a week.
+
+  Don't get me wrong I still love the Octopress and I think it's a one of the best blogging frameworks out there 
+  but I needed something that didn't required syncing the database or me to push everything to heroku and github branches everytime. 
+  Therefore after couple of weeks Kilroy met [Stacey](http://staceyapp.com/).
+
+  **Stacey it's a lightweight content management system. No database setup or installation files, simply drop the application on a server and it runs. 
+  Your content is managed by creating folders and editing text files. No login screens, no admin interface**.
+
+  I enjoy working with new technologies so the task of deploying new blogging framework wasn't a big one.
+  Therefore I deplyoed the new framework and started coding...
