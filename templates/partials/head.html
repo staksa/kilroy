@@ -38,12 +38,13 @@
 				</h1>
 				<nav>
 					<ul>
-						<a href="{{ page.root_path }}resume/">Resume</a>
+						<a href="{{ page.root_path }}/documents/arek_komarnicki_resume.pdf">My Resume</a>
 						{% for child in page.root %}
 							{% if child.page_title %}							
 								<li><a href="{{ child.url }}">{{ child.page_title }}</a></li>
-							{% endif %}	
+							{% endif %}
 						{% endfor %}
+						<a href="mailto:arek@arekom.me?Subject=Hello!">Contact Me</a>
 					</ul>
 				</nav> <!--/ responsive-nav -->
 			

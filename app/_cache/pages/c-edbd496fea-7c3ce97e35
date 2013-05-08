@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Metaaaa -->
+	<meta charset="utf-8">
+	<title>Arek Komarnicki | Kilroy - the short journey of my blog</title>
+	<meta name="description" content="A tiny blog and resume of Arek Komarnicki; Powered by staceyapp">
+	<meta name="author" content="Arek Komarnicki">
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="../..//css/normalize.css">
+	<link rel="stylesheet" href="../..//css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- JS -->
+	<!--[if lt IE 9]>
+		<script src="../..//js/html5shiv.js"></script>
+	<![endif]-->
+
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="../..//img/favicon.ico" />
+	<link rel="apple-touch-icon" href="../..//img/apple-touch-icon.png" />
+</head>
+<body>
+		<header class="clearfix">
+		
+			<div class="wrapper">
+		
+				<h1 class="logo">
+					<a href="../../">Arek Komarnicki</a>
+				</h1>
+				<nav>
+					<ul>
+						<a href="../..//documents/arek_komarnicki_resume.pdf">My Resume</a>
+																				
+								<li><a href="../../about/">About</a></li>
+																											
+								<li><a href="../../projects/">Projects</a></li>
+																																<a href="mailto:arek@arekom.me?Subject=Hello!">Contact Me</a>
+					</ul>
+				</nav> <!--/ responsive-nav -->
+			
+			</div> <!--/ wrapper -->
+			
+		</header>		
+<section class="main clearfix">
+
+	<div class="wrapper">	
+
+		<aside class="sidebar">
+		
+			        <p class="nav-title">Latest Articles</p>
+    <ul>
+        	<li><a href="../../articles/journey/">Kilroy - the short journey of my blog</a></li>
+        </ul>
+  
+			<p class="nav-social">Find me Here</p>
+	<ul>
+		<li>
+			<a href="http://www.facebook.com/arek.komarnicki"><img src="../..//img/facebook.png" alt="facebook"></a>
+			<a href="http://plus.google.com/111893046260780461288"><img src="../..//img/google.png" alt="google"></a>
+			<a href="http://www.github.com/arekom"><img src="../..//img/git.png" alt="git"></a>
+			<a href="http://www.twitter.com/arekom_"><img src="../..//img/twitter.png" alt="twitter"></a>
+			<a href="http://pinterest.com/arekkomarnicki/"><img src="../..//img/pinterest.png" alt="pinterest"></a>
+		</li>
+	</ul>		
+		</aside><!--/ sidebar -->
+	
+		<div class="tasters">	
+
+			<article>
+		
+				<h2>Kilroy - the short journey of my blog</h2>
+				
+				<p class="meta">by <a href="#">Arek Komarnicki</a> on <a href="#">28 Apr 2013</a> with <a href="../../articles/journey/#disqus_thread">Comments</a></p>
+				
+				<p>My older blog let's call it Kilroy 1.0 was powered by the Octpress framework and was hosted on Heroku. 
+Just after couple of weeks of using the Octpress framework, I came to the conclusion that it's a simple overkill to do all this unnecessary 
+stuff just to post an article once in a week. So I started looking for new way to do all of that but in simpler form.</p>
+
+<p>Don't get me wrong I still love the Octopress and I think it's a one of the best blogging frameworks out there 
+but I needed something that didn't required syncing the database or me pushing everything to heroku and github branches everytime to keep it up to date. 
+Therefore after couple of weeks Kilroy met <a href="http://staceyapp.com/">Stacey</a>.</p>
+
+<p><strong>Stacey it's a lightweight content management system. No database setup or installation files, simply drop the application on a server and it runs. 
+Your content is managed by creating folders and editing text files. No login screens, no admin interface</strong>.</p>
+
+<p>I enjoy working with new technologies so the task of deploying new blogging framework wasn't a big one. 
+Therefore I deplyoed the new framework and started coding, and for everyone out there who would like to know briefly how Stacey works,
+here is a tiny tutorial on Stacey logic :</p>
+
+<p>When you open a page Stacey looks content of that page in "content" folder ( wow! ), when the content for a page for example index was found 
+Stacey starts looking for a .txt or .yml files within that folder. The name of particular file is very important, because that points to the name of the template so:</p>
+
+<pre><code>[content] content =&gt; index =&gt; index.yml
+[template] templates =&gt; index.html 
+
+[content] + [template] + [CSS] = Complete Page
+</code></pre>
+
+<p>Same logic is used for any new page so if you would like to create an "about me" page you would need to create about .yml and .html files, and to display that page just put
+those files in the folder called /about/ and (if you have navigation in heading of the index.html file) simply make use of <a href="http://twig.sensiolabs.org/documentation">Twig</a> templating language
+like that :</p>
+
+<pre><code>{% for child in page.root %} 
+   {% if child.page_title %}       
+     &lt;li&gt;&lt;a href="{{ child.url }}"&gt;{{ child.page_title }}&lt;/a&gt;&lt;/li&gt;
+   {% endif %}
+{% endfor %}
+</code></pre>
+
+<p>What those lines do it's simply for each child present in the root of content folder if there's a page.title present, output it. 
+Therefore if we used</p>
+
+<pre><code> page_title: About Me 
+</code></pre>
+
+<p>in our about.yml file the code responsible for looping in our navigation will print that on our screeen. So if you look at the top of my page you can see I've done that for 
+My Resume, About, Projects and Contact pages.</p>
+
+<p>That's all for this quick look at Stacey's logic, if you would like to know more just visit the <a href="http://www.staceyapp.com/documentation/">documentation page</a>. And if you like to 
+know my thoughts on Stacey, it's an awesome minimal and clean cms that is easy to manage.</p>
+
+				
+				<div id="media">
+  
+  
+  
+  
+</div>								
+			</article>
+						
+			            
+			<hr>
+			
+			<div id="disqus_thread"></div>
+	        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>		
+		
+		</div><!--/ tasters -->	
+	
+	</div> <!--/ wrapper -->
+
+</section><!--/ main -->
+		
+		
+		<footer>
+	
+			<div class="wrapper">
+	
+				<p>&copy; Copyright Arek Komarnicki 2013 <a class="atom-rss" href="../..//feed">RSS</a> Powered by <a href="http://www.staceyapp.com">stacey</a>
+			
+			</div> <!--/ wrapper -->
+	
+		</footer>	
+		
+		<!--required js-->
+		<script src="../..//js/disqus.min.js"></script>
+</body>
+</html>		

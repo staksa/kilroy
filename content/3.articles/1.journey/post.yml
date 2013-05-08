@@ -1,0 +1,51 @@
+page_title: Kilroy - the short journey of my blog
+date: 28 Apr 2013
+author: Arek Komarnicki
+intro: |
+  I like to think that from time to time when you discover some new and awesome framework or a cool way to create something, you find yourself digging right in to it and start hacking. 
+  Well that's what happend to me and my blog...
+content: |  
+  My older blog let's call it Kilroy 1.0 was powered by the Octpress framework and was hosted on Heroku. 
+  Just after couple of weeks of using the Octpress framework, I came to the conclusion that it's a simple overkill to do all this unnecessary 
+  stuff just to post an article once in a week. So I started looking for new way to do all of that but in simpler form. 
+
+  Don't get me wrong I still love the Octopress and I think it's a one of the best blogging frameworks out there 
+  but I needed something that didn't required syncing the database or me pushing everything to heroku and github branches everytime to keep it up to date. 
+  Therefore after couple of weeks Kilroy met [Stacey](http://staceyapp.com/).
+
+  **Stacey it's a lightweight content management system. No database setup or installation files, simply drop the application on a server and it runs. 
+  Your content is managed by creating folders and editing text files. No login screens, no admin interface**.
+
+  I enjoy working with new technologies so the task of deploying new blogging framework wasn't a big one. 
+  Therefore I deplyoed the new framework and started coding, and for everyone out there who would like to know briefly how Stacey works,
+  here is a tiny tutorial on Stacey logic :
+
+
+  When you open a page Stacey looks content of that page in "content" folder ( wow! ), when the content for a page for example index was found 
+  Stacey starts looking for a .txt or .yml files within that folder. The name of particular file is very important, because that points to the name of the template so:
+
+      [content] content => index => index.yml
+      [template] templates => index.html 
+
+      [content] + [template] + [CSS] = Complete Page
+  
+  Same logic is used for any new page so if you would like to create an "about me" page you would need to create about .yml and .html files, and to display that page just put
+  those files in the folder called /about/ and (if you have navigation in heading of the index.html file) simply make use of [Twig](http://twig.sensiolabs.org/documentation) templating language
+  like that : 
+
+      {% for child in page.root %} 
+         {% if child.page_title %}       
+           <li><a href="{{ child.url }}">{{ child.page_title }}</a></li>
+         {% endif %}
+      {% endfor %}
+
+  What those lines do it's simply for each child present in the root of content folder if there's a page.title present, output it. 
+  Therefore if we used 
+
+       page_title: About Me 
+
+  in our about.yml file the code responsible for looping in our navigation will print that on our screeen. So if you look at the top of my page you can see I've done that for 
+  My Resume, About, Projects and Contact pages.
+
+  That's all for this quick look at Stacey's logic, if you would like to know more just visit the [documentation page](http://www.staceyapp.com/documentation/). And if you like to 
+  know my thoughts on Stacey, it's an awesome minimal and clean cms that is easy to manage.   

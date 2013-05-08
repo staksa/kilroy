@@ -110,7 +110,7 @@ hr {
 	height: 0;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
 
 	body {
 		font-size: 1.25em;
@@ -225,6 +225,7 @@ header nav a:hover {
 		width: 30%;
 		float: left;
 	}
+
 }
 
 

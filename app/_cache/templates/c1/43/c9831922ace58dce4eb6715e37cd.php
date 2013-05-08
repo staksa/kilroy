@@ -94,7 +94,7 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
         // line 41
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
         echo $this->getAttribute($_page_, "root_path");
-        echo "resume/\">Resume</a>
+        echo "/documents/arek_komarnicki_resume.pdf\">My Resume</a>
 \t\t\t\t\t\t";
         // line 42
         if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
@@ -123,10 +123,7 @@ class __TwigTemplate_c143c9831922ace58dce4eb6715e37cd extends Twig_Template
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_merge($_parent, array_intersect_key($context, $_parent));
         // line 47
-        echo "\t\t\t\t\t\t<a href=\"";
-        if (isset($context["page"])) { $_page_ = $context["page"]; } else { $_page_ = null; }
-        echo $this->getAttribute($_page_, "root_path");
-        echo "contact/\">Contact Me</a>\t
+        echo "\t\t\t\t\t\t<a href=\"mailto:arek@arekom.me?Subject=Hello!\">Contact Me</a>
 \t\t\t\t\t</ul>
 \t\t\t\t</nav> <!--/ responsive-nav -->
 \t\t\t
